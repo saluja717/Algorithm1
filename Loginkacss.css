@@ -8,8 +8,8 @@ body
 }
 #icon
 {
-	width: 75px;
-	height:75px;
+	width: 100px;
+	height:100px;
 	background:url(user.png);
 	background-size: cover;
 	border-radius: 50% 50%;
@@ -19,8 +19,8 @@ body
 }
 #box
 {
-	width: 275px;
-	height: 500px;
+	width: 400px;
+	height: 600px;
 	box-sizing: border-box;
 	position: absolute;
 	left: 50%;
