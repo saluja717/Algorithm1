@@ -1,0 +1,9 @@
+#head
+{
+	display: block;
+	background-color: red;
+	height: 20px;
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 10px;
+}
