@@ -94,13 +94,13 @@ a
 	}
     #box
     {
-     width: 250px;
+     width: 200px;
 	height: 400px;
 	box-sizing: border-box;
 	position: absolute;
-	left: 32%;
-	top:34%;
-	transform:translate(-30%,-30%);
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
 	background-color: black;
 	opacity: 0.75;
     }	
@@ -112,8 +112,8 @@ a
 	border: none;
 	border-bottom: 2px solid black;
 	margin-bottom: 10px;
-	height: 40px;
-    width: 200px;	
+	height: 50px;
+    width: 60%;	
 }
 #Form
 {
@@ -133,8 +133,8 @@ button
     border: none;
     background-color:blue;
     font-weight: bold;
-    height: 40px;
-    width: 100px;
+    height: 50px;
+    width:300px;
 }
 #Form 
 {
