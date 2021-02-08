@@ -88,6 +88,10 @@ a
 }
 @media screen and (max-width: 300px)
 {
+	body
+	{
+		background-image: url(Sun.jpg);
+	}
     #box
     {
      width: 250px;
