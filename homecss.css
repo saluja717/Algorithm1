@@ -1,9 +1,104 @@
 #head
 {
-	display: block;
+    position:relative;
+    top: 0;	
 	background-color: red;
-	height: 20px;
+    display: block;	
+    height: 30px;
 	text-align: center;
 	text-transform: capitalize;
 	letter-spacing: 10px;
 }
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#img
+{
+	display: block;
+	position: relative;
+    background-image: url(M.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+    left: 45%;
+}
+#header1
+{
+	background-color: rgba(255,0,0,0.80);
+	opacity: 0.75;
+}
+#nav 
+{
+	margin-top:10px;
+	text-align: center;
+	background-color: red;
+	height: 30px;
+	padding: auto;
+	list-style-type: none;
+}
+#nav a
+{
+	position: relative;
+	top:5px;
+	height: 10px;
+	width: 20px;
+	text-align: center;
+	 margin-left: 3px;
+	 text-decoration-line: none;
+	 
+	 padding: 1%;
+}
+ a:hover
+{
+    background-color: green;
+}
+#content
+{
+	width: 80%;
+	height: 500px;
+	overflow: auto;
+	margin-top: 10px;
+	background-color: green;
+    float: left;
+}
+#side
+{
+   float: left;
+   width:18%;
+   margin-left:10px; 
+   height: 500px;
+   margin-top:10px; 
+   background-color: red;
+}
+#footer
+{
+	clear: both;
+}
+#side-ul li
+{
+	
+	position:relative;
+	text-align: center;
+	padding: 10px;
+    margin-bottom: 50px;
+	list-style-type: none;
+}
+#side-ul
+{
+	list-style-type: none;
+}
+#side-ul a
+{
+	text-decoration-line: none;
+}
+#side-ul  a:hover
+{
+	padding: 10px;
+	display: block;
+	color:orange;
+    background-color: blue;
+}
+
